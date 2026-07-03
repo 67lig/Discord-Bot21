@@ -5062,24 +5062,25 @@ function farmTicketPanelEmbed() {
     .setTitle("Building Services")
     .setDescription([
       "**Building Service Rules**",
-      "- Always pay **`___Vault___`** and not the builder",
-      "- If bot fails to track payment send an uncropped screenshot",
-      "- If the base is raided under 3 days you get a 25% refund",
-      "- Failure to comply with these rules result in a no refund situation",
-      "",
-      "Order a build service 👇",
-      "",
-      "─────────────────────────",
-      "",
-      "**Digging Services**",
-      "Order a digout service. Price formula: `X × Y × Z × $950`",
-      "",
-      "─────────────────────────",
-      "",
-      "**Partnership**",
-      "Interested in partnering with us? Click the button below.",
-    ].join("\n"))
-    .setTimestamp();
+        "- Always pay **`___Vault___`** and not the builder",
+        "- If bot fails to track payment send an uncropped screenshot",
+        "- If the base is raided under 3 days you get a 25% refund",
+        "- Failure to comply with these rules result in a no refund situation",
+        "",
+        "Order a build service 👇",
+        "",
+        "─────────────────────────",
+        "**ETZ Basalt Farm 1.1 [4] - 1.15b**",
+        "",
+        "**Digging Services**",
+        "Order a digout service. Price formula: `X × Y × Z × $950`",
+        "",
+        "─────────────────────────",
+        "",
+        "**Partnership**",
+        "Interested in partnering with us? Click the button below.",
+      ].join("\n"))
+      .setTimestamp();
 }
 
 function farmTicketComponents() {
